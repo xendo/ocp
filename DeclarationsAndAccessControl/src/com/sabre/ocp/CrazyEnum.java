@@ -4,7 +4,7 @@ public enum CrazyEnum {
 
 	INSTANCE(1),
 	CUSTOM_INSTANCE(2) {
-		public int getSomeLocalField() {
+	public int getSomeLocalField() {
 			return 3;
 		}
 	};
